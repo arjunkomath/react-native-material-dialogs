@@ -1,6 +1,6 @@
 {
   "name": "react-native-material-dialogs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Material Design Dialogs for React Native",
   "main": "index.js",
   "scripts": {
@@ -14,6 +14,14 @@
     "dialog",
     "android"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arjunkomath/react-native-material-dialogs"
+  },
+  "bugs": {
+    "url": "https://github.com/arjunkomath/react-native-material-dialogs/issues"
+  },
+  "homepage": "https://github.com/arjunkomath/react-native-material-dialogs/blob/master/README.md",
   "author": "Arjun Komath <arjunkomath@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
