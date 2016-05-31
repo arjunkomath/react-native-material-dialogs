@@ -74,4 +74,36 @@ public class MaterialDialogModule extends ReactContextBaseJavaModule {
         dialog.show();
     }
 
+    @ReactMethod
+    public void showWithCancel(String title, String description, String okayText, String badText, int color, final Callback doneCallback, final Callback cancelCallback) {
+        int icon = android.R.drawable.stat_sys_download_done;
+        switch (color) {
+            case android.R.color.holo_green_dark: icon = android.R.drawable.ic_dialog_email; break;
+            case android.R.color.holo_orange_dark: icon = android.R.drawable.ic_dialog_alert; break;
+            case android.R.color.holo_blue_dark: icon = android.R.drawable.ic_dialog_info; break;
+            case android.R.color.holo_red_dark: icon = android.R.drawable.stat_sys_warning; break;
+        }
+        MaterialStyledDialog dialog = new MaterialStyledDialog(mActivity)
+                .setTitle(title)
+                .setDescription(description)
+                .setIcon(icon)
+                .setHeaderColor(color)
+                .withDialogAnimation(true)
+                .withDivider(true)
+                .setPositive(okayText, new MaterialDialog.SingleButtonCallback() {
+                    @Override
+                    public void onClick(MaterialDialog dialog, DialogAction which) {
+                        doneCallback.invoke();
+                    }
+                })
+                .setNegative(badText, new MaterialDialog.SingleButtonCallback() {
+                    @Override
+                    public void onClick(MaterialDialog dialog, DialogAction which) {
+                        cancelCallback.invoke();
+                    }
+                })
+                .build();
+        dialog.show();
+    }
+
 }
