@@ -145,4 +145,4 @@ AppRegistry.registerComponent('dialog_test', () => dialog_test);
 [MaterialStyledDialogs](https://github.com/javiersantos/MaterialStyledDialogs)
 
 ## About Author
-pBuilt with <3 by Arjun Komath / [arjunkomath@gmail.com](mailto:arjunkomath@gmail.com)
+Built with <3 by Arjun Komath / [arjunkomath@gmail.com](mailto:arjunkomath@gmail.com)
