@@ -63,7 +63,9 @@ And, you're done!
 import MaterialDialog from 'react-native-material-dialogs';
 ```
 
-Then, to show a dialog:
+There are two types of dialogs:
+
+### Dialog with one feedback
 
 ```
 MaterialDialog.show('Yaaay!!', 'Success', 'done', MaterialDialog.SUCCESS,
@@ -76,6 +78,24 @@ Parameters:
 
 ```
 MaterialDialog.show( <Title> , <Description>, <Button text>, <Type>, <Callback>);
+```
+
+### Dialog with two feedbacks
+
+```
+MaterialDialog.showWithCancel('Danger!', 'Are you sure?', 'YES', 'NO', MaterialDialog.DANGER,
+      () => {
+        console.log('yes');
+      },
+      () => {
+        console.log('no');
+      });
+```
+
+Parameters:
+
+```
+MaterialDialog.show( <Title> , <Description>, <Positive Button text>, <Negative Button text>, <Type>, <Callback Positive>, <Callback Negative>);
 ```
 
 Title, Description and Button text are of type String. While Type is a constant.
