@@ -41,10 +41,10 @@ public class MaterialDialogModule extends ReactContextBaseJavaModule {
     @Override
     public Map<String, Object> getConstants() {
         final Map<String, Object> constants = new HashMap<>();
-        constants.put("DANGER", android.R.color.holo_red_light);
-        constants.put("WARNING", android.R.color.holo_orange_light);
-        constants.put("INFO", android.R.color.holo_blue_light);
-        constants.put("SUCCESS", android.R.color.holo_green_light);
+        constants.put("SUCCESS", android.R.color.holo_green_dark);
+        constants.put("WARNING", android.R.color.holo_orange_dark);
+        constants.put("INFO", android.R.color.holo_blue_dark);
+        constants.put("DANGER", android.R.color.holo_red_dark);
         return constants;
     }
 
@@ -52,10 +52,10 @@ public class MaterialDialogModule extends ReactContextBaseJavaModule {
     public void show(String title, String description, String btnText, int color, final Callback doneCallback) {
         int icon = android.R.drawable.stat_sys_download_done;
         switch (color) {
-            case android.R.color.holo_green_light: icon = android.R.drawable.stat_notify_sync; break;
-            case android.R.color.holo_orange_light: icon = android.R.drawable.ic_dialog_alert; break;
-            case android.R.color.holo_blue_light: icon = android.R.drawable.ic_dialog_info; break;
-            case android.R.color.holo_red_light: icon = android.R.drawable.ic_dialog_alert; break;
+            case android.R.color.holo_green_dark: icon = android.R.drawable.ic_dialog_email; break;
+            case android.R.color.holo_orange_dark: icon = android.R.drawable.ic_dialog_alert; break;
+            case android.R.color.holo_blue_dark: icon = android.R.drawable.ic_dialog_info; break;
+            case android.R.color.holo_red_dark: icon = android.R.drawable.stat_sys_warning; break;
         }
         MaterialStyledDialog dialog = new MaterialStyledDialog(mActivity)
                 .setTitle(title)
@@ -63,6 +63,7 @@ public class MaterialDialogModule extends ReactContextBaseJavaModule {
                 .setIcon(icon)
                 .setHeaderColor(color)
                 .withDialogAnimation(true)
+                .withDivider(true)
                 .setPositive(btnText, new MaterialDialog.SingleButtonCallback() {
                     @Override
                     public void onClick(MaterialDialog dialog, DialogAction which) {
