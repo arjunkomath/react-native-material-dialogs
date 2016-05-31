@@ -1,4 +1,3 @@
-![Material Design](https://cdn-images-1.medium.com/max/2000/1*278tqw9zNPe2WCAz29Wzdw.jpeg)
 # React Native Material Dialogs (Android)
 Material Design Dialogs for React Native
 
