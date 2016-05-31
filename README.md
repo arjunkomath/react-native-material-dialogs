@@ -1,5 +1,5 @@
-# React Native Material Dialogs (Android)
-Material Design Dialogs for React Native
+<h1 align="center">React Native Material Dialogs (Android)</h1>
+<h4 align="center">Material Design Dialogs for React Native</h4>
 
 ![](http://i.imgur.com/ObqwIpV.png)
 ![](http://i.imgur.com/OK6A5VZ.png)
