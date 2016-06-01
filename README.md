@@ -3,6 +3,7 @@
 [![npm version](https://badge.fury.io/js/react-native-material-dialogs.svg)](https://badge.fury.io/js/react-native-material-dialogs)
 [![GitHub stars](https://img.shields.io/github/stars/arjunkomath/react-native-material-dialogs.svg)](https://github.com/arjunkomath/react-native-material-dialogs/stargazers)
 [![Code Climate](https://codeclimate.com/github/arjunkomath/react-native-material-dialogs/badges/gpa.svg)](https://codeclimate.com/github/arjunkomath/react-native-material-dialogs)
+[![Join the chat at https://gitter.im/arjunkomath/react-native-material-dialogs](https://badges.gitter.im/arjunkomath/react-native-material-dialogs.svg)](https://gitter.im/arjunkomath/react-native-material-dialogs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ![](https://raw.githubusercontent.com/arjunkomath/react-native-material-dialogs/master/screenshots/Screenshot_2016-05-31-20-29-17.png)
 ![](https://raw.githubusercontent.com/arjunkomath/react-native-material-dialogs/master/screenshots/Screenshot_2016-05-31-20-29-41.png)
@@ -10,7 +11,6 @@
 
 ## Install
 
-[![Join the chat at https://gitter.im/arjunkomath/react-native-material-dialogs](https://badges.gitter.im/arjunkomath/react-native-material-dialogs.svg)](https://gitter.im/arjunkomath/react-native-material-dialogs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Install the npm module.
 ```
 npm i react-native-material-dialogs
