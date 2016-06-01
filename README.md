@@ -1,9 +1,12 @@
 <h1 align="center">React Native Material Dialogs (Android)</h1>
 <h4 align="center">Material Design Dialogs for React Native</h4>
+
 [![npm version](https://badge.fury.io/js/react-native-material-dialogs.svg)](https://badge.fury.io/js/react-native-material-dialogs)
 [![GitHub stars](https://img.shields.io/github/stars/arjunkomath/react-native-material-dialogs.svg)](https://github.com/arjunkomath/react-native-material-dialogs/stargazers)
 [![Code Climate](https://codeclimate.com/github/arjunkomath/react-native-material-dialogs/badges/gpa.svg)](https://codeclimate.com/github/arjunkomath/react-native-material-dialogs)
 [![Join the chat at https://gitter.im/arjunkomath/react-native-material-dialogs](https://badges.gitter.im/arjunkomath/react-native-material-dialogs.svg)](https://gitter.im/arjunkomath/react-native-material-dialogs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+[![NPM](https://nodei.co/npm/react-native-material-dialogs.png?compact=true)](https://nodei.co/npm/react-native-material-dialogs/)
 
 ![](https://raw.githubusercontent.com/arjunkomath/react-native-material-dialogs/master/screenshots/Screenshot_2016-05-31-20-29-17.png)
 ![](https://raw.githubusercontent.com/arjunkomath/react-native-material-dialogs/master/screenshots/Screenshot_2016-05-31-20-29-41.png)
