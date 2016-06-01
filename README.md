@@ -9,6 +9,8 @@
 ![](https://raw.githubusercontent.com/arjunkomath/react-native-material-dialogs/master/screenshots/Screenshot_2016-05-31-20-29-26.png)
 
 ## Install
+
+[![Join the chat at https://gitter.im/arjunkomath/react-native-material-dialogs](https://badges.gitter.im/arjunkomath/react-native-material-dialogs.svg)](https://gitter.im/arjunkomath/react-native-material-dialogs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Install the npm module.
 ```
 npm i react-native-material-dialogs
