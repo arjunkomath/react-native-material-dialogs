@@ -1,10 +1,9 @@
 <h1 align="center">React Native Material Dialogs (Android)</h1>
 <h4 align="center">Material Design Dialogs for React Native</h4>
 
-![](http://i.imgur.com/ObqwIpV.png)
-![](http://i.imgur.com/OK6A5VZ.png)
-![](http://i.imgur.com/Gh7jTYQ.png)
-![](http://i.imgur.com/DhaiHDH.png)
+![](https://raw.githubusercontent.com/arjunkomath/react-native-material-dialogs/master/screenshots/Screenshot_2016-05-31-20-29-17.png)
+![](https://raw.githubusercontent.com/arjunkomath/react-native-material-dialogs/master/screenshots/Screenshot_2016-05-31-20-29-41.png)
+![](https://raw.githubusercontent.com/arjunkomath/react-native-material-dialogs/master/screenshots/Screenshot_2016-05-31-20-29-26.png)
 
 ## Install
 Install the npm module.
